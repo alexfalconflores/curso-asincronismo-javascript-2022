@@ -1,14 +1,19 @@
 {
   "name": "curso-asincronismo",
   "version": "1.0.0",
+  "type": "module",
   "description": "curso-asincronismo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "callback": "node src/callback/challenge.js"
   },
   "keywords": [
     "javascript"
   ],
   "author": "alex stefano falcon flores alexfalconflores@hotmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.2.9",
+    "xmlhttprequest": "^1.8.0"
+  }
 }
